@@ -106,10 +106,11 @@ body {
 }
 
 .advantages-box {
+    margin-top: 10px;
     background-color: transparent;
     display: flex;
     justify-content: space-between;
-    gap: 5px;
+    gap: 10px;
 }
 
 .advantages-box div {
@@ -133,4 +134,41 @@ body {
 }
 .fast-delivery {
     background-image: url("https://cdn.pixabay.com/photo/2020/02/10/18/31/motor-scooter-4837310_960_720.jpg");
+}
+.bottom-right {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.kitchen-menu {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    font-family: cursive, Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    margin-top: 15px;
+    gap: 20px;
+}
+
+.menu-one-forth {
+    flex-basis: 25%;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.menu-one-forth img {
+    width: 100%;
+}
+
+.page-footer {
+    width: 100%;
+    background-color: black;
+    font-family: "Cookie", cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
 }
